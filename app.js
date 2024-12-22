@@ -73,25 +73,11 @@ for(let i=0;i<myarray.length;i++)
    myvaluepart.appendChild(mypartlist);
 }
 mypart.appendChild(myvaluepart);
-
-  
-  
-
-
-
-
-
-  })
+})
   .catch(error => {
     console.error('Error:', error);
       document.getElementById('mywordData').innerHTML=`<h5>${error}</h5>`
   }).finally(()=>{
     document.getElementById('spinnerData').style.display='none';
   });
-
-  
- 
-
-
-
 })
